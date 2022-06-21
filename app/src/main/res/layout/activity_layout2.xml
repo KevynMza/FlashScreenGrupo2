@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Layout2">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtNombre"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtCorreo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtEdad"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGuradar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuardar" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/btnMasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnMasculino" />
+
+        <RadioButton
+            android:id="@+id/btnFemenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnFemenino" />
+    </RadioGroup>
+
+</LinearLayout>

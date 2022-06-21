@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FlashScreenGrupo</string>
+    <string name="btnreg">Registro</string>
+    <string name="txthola">Hola</string>
+    <string name="txtNombre">Ingresa tu nombre</string>
+    <string name="txtCorreo">Ingresa tu correo</string>
+    <string name="txtEdad">Ingresa tu edad</string>
+    <string name="btnMasculino">Masculino</string>
+    <string name="btnFemenino">Femenino</string>
+    <string name="btnGuardar">Guardar</string>
+
+</resources>
